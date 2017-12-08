@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>>
+	<fields name="profile_authorlist">
+		<fieldset name="profile_authorlist"
+			label="PLG_USER_PROFILE_AUTHORLIST_SLIDER_LABEL">
+			
+			<field name="display_alias"
+				type="text"
+				label="COM_AUTHORLIST_FIELD_DISPLAY_ALIAS_LABEL"
+				description="COM_AUTHORLIST_FIELD_DISPLAY_ALIAS_DESC"
+				class="inputbox"
+				size="30"
+			/>
+			
+			<field name="image"
+				type="media"
+				hide_none="1"
+				label="COM_AUTHORLIST_FIELD_IMAGE_LABEL"
+				description="COM_AUTHORLIST_FIELD_IMAGE_DESC"
+				/>
+
+			<field name="description" type="editor"
+				label="COM_AUTHORLIST_FIELD_DESCRIPTION_LABEL"
+				description="COM_AUTHORLIST_FIELD_DESCRIPTION_DESC"
+				class="inputbox"
+				filter="safehtml"
+				buttons="true"
+				hide="readmore,pagebreak,article"
+				 />
+
+			<field name="param_show_email" type="list"
+				label="JGLOBAL_EMAIL"
+				description="COM_AUTHORLIST_FIELD_PARAMS_AUTHOR_E_MAIL_DESC"
+			>
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="param_show_author_name" type="list"
+				label="COM_AUTHORLIST_AUTHOR_NAME"
+				description="COM_AUTHORLIST_SHOW_AUTHOR_NAME_DESC"
+			>
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JGLOBAL_USERNAME</option>
+				<option value="2">COM_AUTHORLIST_AUTHOR_NAME</option>
+				<option value="0">JHIDE</option>
+			</field>	
+		
+			<field name="param_gplus_url"
+				type="text"
+				label="COM_AUTHORLIST_FIELD_GPLUS_URL_LABEL"
+				description="COM_AUTHORLIST_FIELD_GPLUS_URL_DESC"
+				class="inputbox"
+				size="30"
+			/>
+		</fieldset>
+	</fields>
+</form>

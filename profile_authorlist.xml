@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="user">
+	<name>PLG_USER_PROFILE_AUTHORLIST</name>
+	<author>Jesus Vargas</author>
+	<creationDate>Mar 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>chuzky@gmail.com</authorEmail>
+	<version>1.0</version>
+	<description>PLG_USER_PROFILE_AUTHORLIST_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="profile_authorlist">profile_authorlist.php</filename>
+		<filename>index.html</filename>
+		<folder>form</folder>
+		<folder>language</folder>
+	</files>
+	<update></update>
+ </extension>
